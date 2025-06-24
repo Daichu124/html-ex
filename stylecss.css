@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    position: relative;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -451,3 +452,34 @@ h5 {
     gap: 40px;
     
 }
+.hamberger{
+    position: absolute;
+    right: 0%;
+    display: none;
+}
+.content2{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+.nav{
+    display: none;
+}
+.search-container{
+    display: none;
+}
+.btn{
+    display: none;
+}
+.hamberger{
+    display: flex;
+
+}
+.content1{
+display: none;
+}
+.content2{
+    display: block;
+}
+}
+.
